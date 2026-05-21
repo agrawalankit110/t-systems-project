@@ -6,10 +6,3 @@ image:
 postgres:
   image: postgres
   tag: "15"
-  username: postgres
-  password: secret
-  database: book
-
-service:
-  type: ClusterIP
-  port: 8000
